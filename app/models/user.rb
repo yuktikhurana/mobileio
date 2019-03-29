@@ -1,6 +1,4 @@
 class User < ApplicationRecord
-  
-  ENCRYPTOR = ActiveSupport::MessageEncryptor.new(ENV['ENCRYPTION_KEY'])
 
   attr_accessor :mobile
 
